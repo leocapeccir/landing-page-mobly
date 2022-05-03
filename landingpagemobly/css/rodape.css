@@ -1,0 +1,57 @@
+.container__rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.rodape{
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 46px;
+}
+
+.rodape:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.container__rodape--novidades{
+    width: 278px;
+}
+
+.container__rodape--exclusivo{
+    width: 278px;
+
+}
+
+.container__rodape--mesa{
+    width: 278px;
+}
+
+.container__rodape--1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    
+}
+
+.container__rodape--2{
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    
+}
+
+.container__rodape--mesa{
+    width: 278px;
+}
+
+.container__rodape--rack{
+    height: 278px;
+    
+
+}

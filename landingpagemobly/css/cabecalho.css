@@ -1,0 +1,150 @@
+@import url(./estilo.css);
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 113px;
+    background:white;
+    width: 100%;
+    border-bottom: solid 1px var(--bg-input); 
+    padding: 30px;
+}
+
+.cabecalho__menu--busca{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    gap: 30px;
+}
+
+
+.cabecalho__logo{
+    width: 173px;
+    height: 26px;
+    margin-left: 55px;
+
+}
+
+.cabecalho__botao--busca{
+    width: 75px;
+    height: 45px;
+    background: #5f22a8;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.cabecalho__botao--busca:hover{
+    transform: scale(1.1);
+    transition: .3s;
+    
+}
+
+#busca{
+    width: 230px;
+    height: 50px;
+    border-radius: 3px;
+    padding-left: 15px;
+    border: none;
+    background: #e0e7e0;
+    font-size: .9rem;
+    font-style: italic;
+    color:#414141
+}
+
+
+.menu__navegacao{
+    display: flex;
+}
+.cabecalho__item {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cabecalho__item{
+    font-size: 1.1rem;
+    color: #414141;
+    padding: 16px;
+
+}
+
+.cabecalho__botao--carrinho{
+    width: 90px;
+    height: 45px;
+    background: #5f22a8;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.cabecalho__botao--carrinho:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.fa-solid{
+    color:#5f22a8;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.fa-cart-shopping{
+    color: white;
+    padding: 3px;
+}
+
+.fa-heart{
+    
+    color:#5f22a8;
+}
+
+.fa-brands{
+    padding: 3px;
+}
+
+.container__nav{
+   
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    height: 69px;
+    padding-bottom: 11px;
+
+}
+
+
+.nav__item{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+    font-size: 1.2rem; 
+    color: #414141;
+    
+}
+    
+   
+.nav__item--roxo{
+    color:#5f22a8
+}
+
+
+.fa{
+    color: red;
+}
+
+

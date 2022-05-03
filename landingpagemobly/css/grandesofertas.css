@@ -1,0 +1,21 @@
+.grandes__ofertas{
+    display: flex;
+    gap: 30px;
+    align-items: end;
+    position: absolute;
+    top: 104%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container__grandes--ofertas:hover{
+    transform: scale(1.1);
+    transition: .2s;
+    cursor: pointer;
+}
+
+
+.menu__lancamentos--ofertas{
+    font-size: 1rem;
+    color: #1a253b;
+}

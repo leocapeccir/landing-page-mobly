@@ -1,0 +1,67 @@
+@import url(./estilo.css);
+
+.menu__principal{
+    display: flex;
+}
+
+
+.menu__lancamentos{
+    background-image: url(../img/Destaque/lancamentos.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+}
+
+.menu__lancamentos--titulo{
+    font-size: 7rem;
+    color: #1a253b;
+}
+
+
+.menu__lancamentos--subtitulo{
+    color: #8d8c8b;
+    font-size: 1.3rem;
+    
+}
+
+
+
+.menu__lancamentos--imagem{
+    width: 100%;
+    height: 100%;
+}
+
+
+.container__lancamentos{
+    margin-left: 313px;
+    margin-top: 25px;
+
+}
+
+.menu__lancamentos--botao{
+    width: 200px;
+    height: 45px;
+    background: #007693;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+
+}
+
+.menu__lancamentos--botao:hover{
+    transform: scale(1.1);
+    transition: .3s;
+
+}
+
+
+.menu__lancamentos--ofertas{
+    padding-top: 55px;
+    font-size: 1.2rem;
+    color: #1a253b;
+}

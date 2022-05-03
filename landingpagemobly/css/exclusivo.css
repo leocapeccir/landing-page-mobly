@@ -1,0 +1,14 @@
+.container__exclusivo{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container__exclusivo:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+}
+
